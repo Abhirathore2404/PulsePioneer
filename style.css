@@ -1,0 +1,119 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  header {
+    background-color: #3b1919;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    padding: 40px 20px;
+    margin-bottom: 5px;
+    background-color: #fff;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .hero {
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .hero .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero .hero-content h2 {
+    color: #fff;
+  }
+  
+  .about {
+    background-color: #fff4f4;
+  }
+  
+  .container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #4a4a4a;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #4a4a4a;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #3b1919;
+    color: #fff;
+  }
+  
+  table td img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .equipment-item {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .equipment-item img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .equipment-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .equipment-item p {
+    font-size: 14px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .tips {
+      background-color: #fff8f8;
+      line-height: 30px;
+  }
+  
+  /* Update your code from below this line */
+  
+  #sidebar{
+        position: absolute; /* Absolutely position the <p> element */
+        top: 0; /* Align to the top */
+        left: 0; /* Align to the left */
+        margin: 0; /* Remove extra spacing around the element */
+  }
